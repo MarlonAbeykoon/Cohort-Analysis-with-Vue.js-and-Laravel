@@ -8,7 +8,7 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 Vue.use(require('vue-resource'));
-import chartComp from './components/ParentChartComponent.vue';
+import chartComp from './components/ChartComponent.vue';
 
 /**
  * The following block of code may be used to automatically register your

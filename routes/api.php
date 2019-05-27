@@ -17,4 +17,4 @@ use Illuminate\Http\Request;
 //    return $request->user();
 //});
 
-Route::get('chart', 'ConsumerController@generateCohortAnalysis');
+Route::get('chart', 'ConsumerController@generateCohortAnalysis')->name('chart');
